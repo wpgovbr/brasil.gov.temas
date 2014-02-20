@@ -1,0 +1,16 @@
+
+/* - ++resource++collection.css - */
+@media screen {
+/* http://10.211.2.65:8050/sae/SAE/portal_css/++resource++collection.css?original=1 */
+/* */
+.icons-on .contenttype-collection {
+background: no-repeat transparent 0 -1724px url(contenttypes-sprite.png);
+}
+.icons-on .contenttype-collection {
+line-height: 2em;
+display: inline-block;
+*display: block;
+padding-left: 20px !important;
+}
+
+}

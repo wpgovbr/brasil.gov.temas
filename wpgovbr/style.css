@@ -1,0 +1,1148 @@
+/*
+Theme Name: wpgovbr
+Theme URI: https://github.com/wpgovbr
+Version: 1.0
+Author: SAE
+Author URI: http://www.sae.gov.br/
+Description: Identidade Digital de Governo para Wordpress
+Text Domain: sae
+*/
+
+
+/* Estilos específos do site antigo da SAE - Integração de conteúdos */
+
+.menu-superior-direito-container{
+	float:right;
+	}
+.quem {
+	border-bottom: 1px dotted #999;
+	padding: 10px 20px 20px 20px;
+	margin-bottom: 20px;
+	width:450px;
+	line-height: 24px;
+	}
+.tile p {
+	color: #172938;
+/*	font-size: 1.15em; */
+	font-family: Arial, Helvetica, sans-serif; 
+	line-height: 1.25em !important;
+}
+.tile a {
+	color: #172938 !important;
+}
+.tile a:hover {
+	color: #172938 !important;
+}
+.tile a:visited {
+	color: #172938 !important;
+}
+
+.template-summary_view #viewlet-below-content-title {
+	border-top: none;
+}
+
+/* resource secom */
+#content h1.documentFirstHeading {
+margin: .85em 0 5px;
+padding: 0 0 .70em 0;
+border: 0;
+/*border-bottom: 1px solid #d9dbda;*/
+color: #2c66ce;
+text-transform: uppercase;
+font-weight: normal;
+font-size: 2.25em;
+font-family: "open_sansbold", Arial, Helvetica, sans-serif;
+line-height: 1em;
+}
+#content-core {
+clear: both;
+margin-top: 40px;
+}
+/* */
+.template-summary_view #content-core,
+.template-facetednavigation_view #content-core { margin-top: 40px; }
+.template-summary_view #content h1.documentFirstHeading,
+.template-facetednavigation_view #content h1.documentFirstHeading {
+margin: .85em 0 5px;
+padding: 0 0 .70em 0;
+border: 0;
+border-bottom: 1px solid #d9dbda;
+color: #2c66ce;
+text-transform: uppercase;
+font-weight: normal;
+font-size: 2.25em;
+font-family: "open_sansbold", Arial, Helvetica, sans-serif;
+line-height: 1em;
+}
+.template-summary_view #content .tileItem,
+.template-facetednavigation_view #content .tileItem {
+position: relative;
+clear: both;
+overflow: hidden;
+margin: 0;
+padding: 2em 0 2em 7.5em;
+border-bottom: 1px solid #d7dbda;
+font-size: 1em;
+}
+.template-summary_view #content .tileItem:first-child,
+.template-facetednavigation_view #content .tileItem:first-child { padding-top: 0; }
+.template-summary_view #content .tileContent,
+.template-facetednavigation_view #content .tileContent {
+	overflow: hidden;
+	padding-left: 1.8em;
+	min-height: 75px;
+	border-left: 1px dotted #D6D6D6;
+}
+
+/********************* ajuste da letra *****************************/
+.tile p, .tileContent p, .tileContent li {
+	font-size: 115%;
+}
+/******************************************************************/
+
+.template-summary_view #content .tileImage,
+.template-facetednavigation_view #content .tileImage {
+float: none;
+margin: 0 1em 0.5em 0;
+}
+.template-summary_view #content .tileImage img,
+.template-facetednavigation_view #content .tileImage img { float: left; }
+.template-summary_view #content .tileItem .subtitle,
+.template-facetednavigation_view #content .tileItem .subtitle {
+display: block;
+margin: 0 0 .6em;
+padding: 0;
+font-weight: normal;
+font-size: 1em;
+font-family: "open_sansregular", Arial, Helvetica, sans-serif;
+}
+.template-summary_view #content .tileItem .tileHeadline,
+.template-facetednavigation_view #content .tileItem .tileHeadline {
+margin: 0 0 0.438em;
+padding: 0;
+color: #172938;
+font-weight: bold;
+font-size: 1.3em;
+font-family: Arial, Helvetica, sans-serif;
+}
+.template-summary_view #content .tileItem .tileHeadline a,
+.template-summary_view #content .tileItem .description,
+.template-facetednavigation_view #content .tileItem .tileHeadline a,
+.template-facetednavigation_view #content .tileItem .description {
+margin: 0;
+padding: 0;
+color: #172938 !important;
+font-family: Arial, Helvetica, sans-serif;
+}
+.template-summary_view #content .tileItem .description,
+.template-facetednavigation_view #content .tileItem .description { line-height: 1.75em; }
+.template-summary_view #content .tileItem p,
+.template-facetednavigation_view #content .tileItem p {
+margin: 0;
+padding: 0;
+}
+.template-summary_view #content .tileItem .keywords,
+.template-facetednavigation_view #content .tileItem .keywords {
+margin: 15px 0 0;
+padding: 0;
+color: #596e7f;
+font-weight: normal;
+font-size: 1em;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.3em;
+}
+.template-summary_view #content .tileItem .documentByLine,
+.template-facetednavigation_view #content .tileItem .documentByLine {
+margin: 2em 0 0;
+padding: 0;
+min-width: 7.5em;
+min-height: 10.4em;
+color: #596E7F;
+font-size: 1em;
+font-family: "open_sansregular", Arial, Helvetica, sans-serif;
+position: absolute;
+top: 0;
+left: 0;
+}
+.template-summary_view #content .tileItem:first-child .documentByLine,
+.template-facetednavigation_view #content .tileItem:first-child .documentByLine { margin-top: 0; }
+.template-summary_view #content .documentByLine .summary-view-icon,
+.template-facetednavigation_view #content .documentByLine .summary-view-icon {
+display: block;
+margin: 0 0 1em;
+color: #596e7f;
+font-size: 1em;
+font-family: "open_sansregular", Arial, Helvetica, sans-serif;
+line-height: 1.2em;
+}
+/* */
+#content .summary-view-icon [class*="icon"] {
+display: inline-block;
+background-image: url("img/summary-view-icons-sprite.png");
+background-repeat: no-repeat;
+position: relative;
+top: 1px;
+width: 14px;
+height: 14px;
+margin-right: 2px;
+}
+#content .summary-view-icon .icon-audio { background-position: -3px -391px; }
+#content .summary-view-icon .icon-day,
+#content .summary-view-icon .icon-agenda { background-position: -244px -392px; width: 13px; }
+#content .summary-view-icon .icon-image { background-position: -123px -391px; }
+#content .summary-view-icon .icon-hour { background-position: -273px -393px; }
+#content .summary-view-icon .icon-noticia,
+#content .summary-view-icon .icon-page { background-position: -94px -391px; }
+#content .summary-view-icon .icon-multimidia { background-position: -33px -391px; }
+/* */
+.menuTrigger { display: none; }
+div.listingBar { clear: both; }
+ul.formTabs { padding: 0px !important; }
+#searchbt,
+#nav #seletor { display: none; }
+#nav #seletor { color: #fff; }
+/* */
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+#header { padding-top: 1em !important; }
+#portal-siteactions {
+position: static;
+float: none;
+clear: both;
+padding: 0 0 0.5em;
+font-size: 0.9em;
+}
+#main,
+.section-home #main {
+padding-top: 0;
+max-width: 100% !important;
+}
+#sobre .last-item a { padding: 0 10px; }
+#portal-breadcrumbs,
+#accessibility,
+#doormat-container,
+#em-destaque,
+#portal-features { display: none !important; }
+#portal-column-content {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding: 20px;
+}
+.menuTrigger {
+display: block;
+height: 73px;
+text-indent: -9999px;
+cursor: pointer;
+}
+#navigation.ativo .menuTrigger { background-position: bottom right; }
+#navigation #portal-column-one { display: none; }
+#navigation.ativo #portal-column-one {
+display: block;
+background: url("img/shadow-bottom.gif") repeat-x bottom left;
+padding-bottom: 13px;
+}
+.portlet-static-centrais-de-conteudos .portletHeader,
+.portletNavigationTree .portletHeader {
+position: relative;
+margin: 0;
+padding: 30px 0;
+border-top: none;
+border-bottom: 1px solid #cdd4d0;
+text-indent: 30px;
+text-transform: uppercase;
+font-size: 24px;
+cursor: pointer;
+}
+.portletNavigationTree .portletHeader a span {
+position: absolute;
+top: 18px;
+right: 20px;
+display: block;
+width: 37px;
+height: 36px;
+background: url("img/bg-menu-mobile-panel.png") top center no-repeat;
+}
+#portal-column-one .ativo .portletHeader a span {
+background-position: bottom center;
+}
+#portal-column-one .portletNavigationTree .portletHeader a {
+padding: 20px 35px;
+color: #00500f !important;
+font-size: 24px;
+}
+#portal-column-one dl.portlet { margin-bottom: 0; }
+#portal-column-one .portletStaticText,
+#portal-column-one dl.portlet dd {
+display: none;
+}
+#portal-column-one dl.ativo dd { display: block; }
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+border-top: none;
+border-bottom: 1px solid #d2d2d2;
+}
+dl.portlet ul.navTreeLevel0 > .navTreeItem a {
+padding: 20px 35px !important;
+color: #454545;
+font-size: 24px;
+line-height: 1.2em;
+}
+}
+/* */
+/* */
+.hiddenStructure {
+display: block;
+background: transparent;
+background-image: none; /* */
+border: none;
+height: 0.1em;
+overflow: hidden;
+padding: 0;
+margin: -0.1em 0 0 -0.1em;
+width: 1px;
+}
+/* */
+/* */
+.ie6 .hiddenStructure,
+.ie7 .hiddenStructure {
+position: absolute;
+}
+#content .visualNoMarker {
+list-style:none;
+margin-left: 0;
+}
+
+/* estilos para os videos */
+.titlec {
+  font-size: 0.65em;
+  text-transform:uppercase
+}
+ul.videos li {
+  float: left;
+  width: 10em;
+  margin-bottom: 2em;
+  list-style-type: none !important;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+ul.videos
+{
+  margin-bottom: 1em;
+  padding-left : 0em;
+  margin-left: 0em;
+  list-style: none;
+}
+#videos2{
+	width:40em;
+}
+#assistindo{
+	background:#000000;
+	color:#FFFFFF;
+	position:relative;
+	width: 130px;
+	height: 20px;
+	margin:-25px 0px 5px 0;
+	font-size:small;
+}
+.youtubeThumbs{
+	width:130px;
+	height:97px;
+	background-size: 130px 97px;
+	position:relative;
+	cursor:pointer;
+}
+#paginate {
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+/* The Flickr Tumbs */
+#flickrtumbs, #flickrSET {
+    float:left;
+    width:330px;
+    padding-top:3px;
+    font-size:12px;
+    font-family:Tahoma,Century gothic, Arial, sans-serif;
+}
+#flickrList{
+	width:40em;
+}
+#flickrtumbs li, #flickrSET li, #flickrList li {
+    float:left;
+    padding:2px 3px;
+    list-style:none;        
+}
+#flickrtumbs h2, #flickrSET h2 {
+    line-height:28px;
+    font-size:14px;
+    color:#1582bb;
+    margin:5px 0px 0px 0px ;
+    padding:0px 0px 5px 5px;
+    margin-bottom:5px;
+    background:#e2eaf4;
+    font-weight:bold;
+    font-family:Arial,Georgia,Century gothic,  sans-serif;
+    text-transform:uppercase;
+    position:relative;
+    height: 25px;
+    }
+#flickrtumbs h2 a, #flickrSET h2 a {
+    color:#1582bb;
+    text-decoration:none;
+    } 
+
+#logoflickr {
+    height:20px;
+    width:20px;
+    background-image:url(http://www.sae.gov.br/site/wp-content/uploads/flickr.png);
+    float:left;
+    margin-right:5px;
+    margin-left:10px;
+    position:relative;
+    margin-top:13px;
+    cursor:pointer;
+    }
+.banner-projeto {
+	background: url("img/bannerP.png") center no-repeat;
+	width:230px;
+	height:75px;
+	text-align:center;
+	/*vertical-align:central;*/
+	display:table;
+}
+.banner-projeto h3 {
+    color:#ffffff !important;
+    font-size:1.1em;
+    font-family: 'open_sansbold' !important;
+    text-transform:uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    padding: 0 5px;
+	display:table-cell;
+	vertical-align: middle;
+}
+#estanteWraper{
+	width:750px;
+	overflow:auto;
+	height: 350px;
+}
+#estante{
+	width:708px;
+	background-image:url('img/shelf.png');
+	padding: 15px 10px 10px 15px;
+	}
+.abrir{
+	position:relative;
+}
+.novo{
+	position:relative;
+	margin: -152px 0px 0px 0px;
+	vertical-align:top;
+}
+.livro{
+	float:left;
+	margin-bottom:17px;
+	margin-left: 23px;
+}
+.capa{ 
+	position:relative;
+}
+.livro img{
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+}
+
+#contatos-sae dt{
+padding-left:10px;
+}
+#contatos-sae dd{
+padding-left:15px;
+margin:3px 0 8px;
+}
+#contatos-sae dd span{
+display:block;
+}
+.legenda{
+	text-align:right; 
+	font-size:70%; 
+	color:#666;
+	padding: 0px 15px 25px;
+}
+.comment-body{
+	font-size:1.3em;
+	color:#666;
+}
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+/* green */
+.green {
+	color: #e8f0de !important;
+	border: solid 1px #538312;
+	background: #64991e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));
+	background: -moz-linear-gradient(top,  #7db72f,  #4e7d0e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
+}
+.green:hover {
+	background: #538018;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6b9d28), to(#436b0c));
+	background: -moz-linear-gradient(top,  #6b9d28,  #436b0c);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b9d28', endColorstr='#436b0c');
+}
+.green:active {
+	color: #a9c08c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4e7d0e), to(#7db72f));
+	background: -moz-linear-gradient(top,  #4e7d0e,  #7db72f);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4e7d0e', endColorstr='#7db72f');
+}
+#carrega{
+/*
+	background: url("img/loading.gif");
+	height:16px;
+	width:16px;
+	position:relative;
+	float:left;
+	margin-left: -10px;
+	margin-right: 10px;
+*/
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+
+.tile.padrao { margin-bottom: 13px; }
+
+.padrao .outstanding-header { border-top: 2px solid #172838; }
+
+.padrao .outstanding-header h2 { min-height: 31px; }
+
+
+
+/* ==========================================================================
+
+	CORES POR TEMAS/ASSUNTOS
+
+   ========================================================================== */
+
+
+/*
+ * Destaques com borda cinza
+ */
+
+.roxo-borda,
+.verde-borda,
+.azul-claro-borda,
+.azul-turquesa-borda,
+.laranja-borda,
+.bege-borda {
+    padding-bottom: 0.8em;
+    border-bottom: 1px solid #ccc;
+}
+
+.roxo-borda a { color: #5c1285 !important; }
+.verde-borda a { color: #01971c !important; }
+.azul-claro-borda a { color: #8fd9e4 !important; }
+.azul-claro-turquesa a { color: #097495 !important; }
+.laranja-borda a { color: #e07f48 !important; }
+.bege-borda a { color: #ab6600 !important; }
+
+.tile p { line-height: 1.75em; }
+
+.left {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.right {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.tile-title{
+    
+	border-top-style:solid;
+	border-top-width: 4px;
+}
+
+.outstanding-header{
+    min-height: 40px;
+	border-top-style:solid;
+	border-top-width: 2px;
+	border-top-color: #2C67CD;
+    background: #eeeff1;
+}
+
+.outstanding-header .outstanding-title{
+    border-bottom: none;
+    background: #eeeff1;
+}
+
+
+/* Laranja - Juventude
+   ========================================================================== */
+
+.laranja .tile-title,
+.juventude .tile-title {
+    border-top: 4px solid #ba4a00;
+    color: #ba4a00;
+}
+
+.laranja .outstanding-header,
+.juventude .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #ba4a00;
+    background: #eeeff1;
+}
+
+.laranja .outstanding-header .outstanding-title,
+.juventude .outstanding-header .outstanding-title {
+    border-color: #ba4a00;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #ba4a00;
+}
+
+.laranja .outstanding-header .outstanding-link img,
+.juventude .outstanding-header .outstanding-link img{
+    /*background: url("img/seta_laranja.png") no-repeat scroll right 5px transparent;*/
+	 background-color: #ba4a00;
+}
+
+.laranja .tile-subtitle, 
+.juventude .tile-subtitle { color: #ba4a00; }
+
+/* Azul Petroleo - Cairo
+   ========================================================================== */
+
+.azul-petroleo .tile-title,
+.cairo .tile-title {
+    border-top: 4px solid #3b7390;
+    color: #3b7390;
+}
+
+.azul-petroleo .outstanding-header,
+.cairo .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #3b7390;
+    background: #eeeff1;
+}
+
+.azul-petroleo .outstanding-header .outstanding-title,
+.cairo .outstanding-header .outstanding-title {
+    border-color: #3b7390;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #3b7390;
+}
+
+.azul-petroleo .outstanding-header .outstanding-link img, 
+.cairo .outstanding-header .outstanding-link  img{
+   /* background: url("img/seta_azul-petroleo.png") no-repeat scroll right 5px transparent;*/
+   background-color: #3b7390;
+}
+.azul-petroleo .tile-subtitle,
+.cairo .tile-subtitle { color: #3b7390; }
+
+/* Dourado - Pobreza
+   ========================================================================== */
+
+.dourado .tile-title,
+.pobreza .tile-title {
+    border-top: 4px solid #b97a00;
+    color: #b97a00;
+}
+
+.dourado .outstanding-header,
+.pobreza .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #b97a00;
+    background: #eeeff1;
+}
+
+.dourado .outstanding-header .outstanding-title,
+.pobreza .outstanding-header .outstanding-title {
+    border-color: #b97a00;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #b97a00;
+}
+
+.dourado .outstanding-header .outstanding-link img,
+.pobreza .outstanding-header .outstanding-link  img{
+   /* background: url("img/seta_dourado.png") no-repeat scroll right 5px transparent;*/
+   background-color:#b97a00;
+}
+.dourado .tile-subtitle,
+.pobreza .tile-subtitle { color: #b97a00; }
+
+/* Roxo - Infancia
+   ========================================================================== */
+
+.roxo .tile-title,
+.infancia .tile-title {
+    border-top: 4px solid #643c67;
+    color: #643c67;
+}
+
+.roxo .outstanding-header,
+.infancia .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #643c67;
+    background: #eeeff1;
+}
+
+.roxo .outstanding-header .outstanding-title,
+.infancia .outstanding-header .outstanding-title {
+    border-color: #643c67;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #643c67;
+}
+
+.roxo .outstanding-header .outstanding-link img,
+.infancia .outstanding-header .outstanding-link img{
+    /*background: url("img/seta_roxo.png") no-repeat scroll right 5px transparent;*/
+	background-color:#643c67;
+}
+.roxo .tile-subtitle,
+.infancia .tile-subtitle { color: #643c67; }
+
+/* Marron Claro - Imigração
+   ========================================================================== */
+
+.marrom-claro .tile-title,
+.migracao .tile-title {
+    border-top: 4px solid #826938;
+    color: #826938;
+}
+
+.marrom-claro .outstanding-header,
+.migracao .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #826938;
+    background: #eeeff1;
+}
+
+.marrom-claro .outstanding-header .outstanding-title,
+.migracao .outstanding-header .outstanding-title {
+    border-color: #826938;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #826938;
+}
+
+.marrom-claro .outstanding-header .outstanding-link img,
+.migracao .outstanding-header .outstanding-link img{
+    /*background: url("img/seta_marrom-claro.png") no-repeat scroll right 5px transparent;*/
+	background:#826938;
+}
+.marrom-claro .tile-subtitle,
+.migracao .tile-subtitle { color: #826938; }
+
+
+/* Verde Escuro - Envelhecimento
+   ========================================================================== */
+
+.verde-escuro .tile-title,
+.envelhecimento .tile-title {
+    border-top: 4px solid #1D571F;
+    color: #1d571f;
+}
+
+.verde-escuro .outstanding-header,
+.envelhecimento .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #1d571f;
+    background: #eeeff1;
+}
+
+.verde-escuro .outstanding-header .outstanding-title,
+.envelhecimento .outstanding-header .outstanding-title {
+    border-color: #1d571f;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #1d571f;
+}
+
+.verde-escuro .outstanding-header .outstanding-link img,
+.envelhecimento .outstanding-header .outstanding-link img{
+   /* background: url("img/seta_verde-escuro.png") no-repeat scroll right 5px transparent;*/
+   background-color:#1d571f;
+}
+.verde-escuro .tile-subtitle,
+.envelhecimento .tile-subtitle { color: #1d571f; }
+
+/* Verde - Fronteira - Monitoramento
+   ========================================================================== */
+
+.verde .tile-title,
+.fronteira .tile-title,
+.monitoramento .tile-title {
+    border-top: 4px solid #017b16;
+    color: #017B16;
+}
+
+.verde .outstanding-header,
+.fronteira .outstanding-header,
+.monitoramento .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #017b16;
+    background: #eeeff1;
+}
+
+.verde .outstanding-header .outstanding-title,
+.fronteira .outstanding-header .outstanding-title,
+.monitoramento .outstanding-header .outstanding-title {
+    border-color: #017b16;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #017b16;
+}
+
+.verde .outstanding-header .outstanding-link img,
+.fronteira .outstanding-header .outstanding-link img,
+.monitoramento .outstanding-header .outstanding-link img{
+    /*background: url("img/seta_verde.png") no-repeat scroll right 5px transparent;*/
+	background-color:#017b16;
+}
+
+.verde .tile-subtitle,
+.fronteira .tile-subtitle,
+.monitoramento .tile-subtitle { color: #017b16; }
+
+/* Azul - Água e População e Desenvolvimento
+   ========================================================================== */
+
+.azul .tile-title,
+.populacao-e-desenvolvimento .tile-title,
+.agua .tile-title {
+    border-top: 4px solid #1a55dd;
+    color: #1a55dd;
+}
+
+.azul .outstanding-header,
+.populacao-e-desenvolvimento .outstanding-header,
+.agua .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #1a55dd;
+    background: #eeeff1;
+}
+
+.azul .outstanding-header .outstanding-title,
+.populacao-e-desenvolvimento .outstanding-header .outstanding-title,
+.agua .outstanding-header .outstanding-title {
+    border-color: #1a55dd;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #1a55dd;
+}
+
+.azul .outstanding-header .outstanding-link img,
+.populacao-e-desenvolvimento .outstanding-header .outstanding-link img,
+.agua .outstanding-header .outstanding-link img{
+    /*background: url("img/seta_azul.png") no-repeat scroll right 5px transparent;*/
+	background-color:#1a55dd;
+}
+
+.azul .tile-subtitle,
+.populacao-e-desenvolvimento .tile-subtitle,
+.agua .tile-subtitle { color: #1a55dd; }
+
+/* Marron - Clima e atuacao-internacional-do-brasil
+   ========================================================================== */
+
+.marrom .tile-title,
+.clima .tile-title,
+.atuacao-internacional-do-brasil .tile-title {
+    border-top: 4px solid #753900;
+    color: #753900;
+}
+
+.marrom .outstanding-header,
+.clima .outstanding-header,
+.atuacao-internacional-do-brasil .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #753900;
+    background: #eeeff1;
+}
+
+.marrom .outstanding-header .outstanding-title,
+.atuacao-internacional-do-brasil .outstanding-header .outstanding-title,
+.clima .outstanding-header .outstanding-title {
+    border-color: #753900;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #753900;
+}
+
+.marrom .outstanding-header .outstanding-link img,
+.atuacao-internacional-do-brasil .outstanding-header .outstanding-link img,
+.clima .outstanding-header .outstanding-link img{
+    /*background: url("img/seta_marrom.png") no-repeat scroll right 5px transparent;*/
+	background-color:#753900;
+}
+
+.marrom .tile-subtitle,
+.atuacao-internacional-do-brasil .tile-subtitle,
+.clima .tile-subtitle { color: #753900; }
+
+/* Verde Claro - Classe Média
+   ========================================================================== */
+
+.verde-claro .tile-title,
+.defesa .tile-title {
+    border-top: 4px solid #56762b;
+    color: #56762b;
+}
+
+.verde-claro .outstanding-header,
+.defesa .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #56762b;
+    background: #eeeff1;
+}
+
+.verde-claro .outstanding-header .outstanding-title,
+.defesa .outstanding-header .outstanding-title {
+    border-color: #56762b;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #56762b;
+}
+
+.verde-claro .outstanding-header .outstanding-link img,
+.defesa .outstanding-header .outstanding-link img{
+    /*background: url("img/seta_verde-claro.png") no-repeat scroll right 5px transparent;*/
+	background-color:#56762b;
+}
+
+.verde-claro .tile-subtitle,
+.defesa .tile-subtitle { color: #56762b; }
+
+
+/* Azul Claro - Pecuária sustentável
+   ========================================================================== */
+
+.azul-claro .tile-title,
+.pecuaria .tile-title {
+    border-top: 4px solid #3867b7;
+    color: #3867b7;
+}
+
+.azul-claro .outstanding-header,
+.pecuaria .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #3867b7;
+    background: #eeeff1;
+}
+
+.azul-claro .outstanding-header .outstanding-title,
+.pecuaria .outstanding-header .outstanding-title {
+    border-color: #3867b7;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #3867b7;
+}
+
+.azul-claro .outstanding-header .outstanding-link img,
+.pecuaria .outstanding-header .outstanding-link  img{
+    /*background: url("img/seta_azul-claro.png") no-repeat scroll right 5px transparent;*/
+	background-color:#3867b7;
+}
+
+.azul-claro .tile-subtitle,
+.pecuaria .tile-subtitle { color: #3867b7; }
+
+
+/* Azul Escuro - Produção e Consumo
+   ========================================================================== */
+
+.azul-escuro .tile-title,
+.producao-e-consumo .tile-title {
+    border-top: 4px solid #00439e;
+    color: #00439e;
+}
+
+.azul-escuro .outstanding-header,
+.producao-e-consumo .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #00439e;
+    background: #eeeff1;
+}
+
+.azul-escuro .outstanding-header .outstanding-title,
+.producao-e-consumo .outstanding-header .outstanding-title {
+    border-color: #00439e;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #00439e;
+}
+
+.azul-escuro .outstanding-header .outstanding-link img,
+.producao-e-consumo .outstanding-header .outstanding-link img{
+    /*background: url("img/seta_azul-escuro.png") no-repeat scroll right 5px transparent;*/
+	background-color:#00439e;
+}
+
+.azul-escuro .tile-subtitle,
+.producao-e-consumo .tile-subtitle { color: #00439e; }
+
+
+/* Azul Piscina  - Social*
+   ========================================================================== */
+
+.azul-piscina .tile-title,
+.igualdade-racial .tile-title {
+    border-top: 4px solid #00A0DB;
+    color: #00A0DB;
+}
+
+.azul-piscina .outstanding-header,
+.igualdade-racial .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #00A0DB;
+    background: #eeeff1;
+}
+
+.azul-piscina .outstanding-header .outstanding-title,
+.igualdade-racial .outstanding-header .outstanding-title {
+    border-color: #00A0DB;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #00A0DB;
+}
+
+.azul-escuro .outstanding-header .outstanding-link img,
+.igualdade-racial .outstanding-header .outstanding-link img{
+    /*background: url("img/readmoreblue.png") no-repeat scroll right 5px transparent;*/
+	background-color:#00A0DB;
+}
+.azul-piscina .tile-subtitle { color: #097495; }
+.igualdade-racial .tile-subtitle { color: #097495; }
+
+
+/* Bege  - Saneamento*
+   ========================================================================== */
+
+.bege .tile-title,
+.direitos-sexuais-e-direitos-reprodutivos .tile-title {
+    border-top: 4px solid #AD6500;
+    color: #AD6500;
+}
+
+.bege .outstanding-header,
+.direitos-sexuais-e-direitos-reprodutivos .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #AD6500;
+    background: #eeeff1;
+}
+
+.bege .outstanding-header .outstanding-title,
+.direitos-sexuais-e-direitos-reprodutivos .outstanding-header .outstanding-title {
+    border-color: #AD6500;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #AD6500;
+}
+
+.bege .outstanding-header .outstanding-link img,
+.direitos-sexuais-e-direitos-reprodutivos .outstanding-header .outstanding-link img{
+    /*background: url("img/readmorebrown.png") no-repeat scroll right 5px transparent;*/
+	background-color:#AD6500;
+}
+
+.bege .tile-subtitle,
+.direitos-sexuais-e-direitos-reprodutivos .tile-subtitle { color: #ab6600; }
+
+
+
+/* Amarelo *
+   ========================================================================== */
+
+.amarelo .tile-title {
+    border-top: 4px solid #DE9200;
+    color: #DE9200;
+}
+
+.amarelo .outstanding-header {
+    min-height: 40px;
+    border-top: 2px solid #DE9200;
+    background: #eeeff1;
+}
+
+.amarelo .outstanding-header .outstanding-title {
+    border-color: #DE9200;
+    border-bottom: none;
+    background: #eeeff1;
+    color: #DE9200;
+}
+
+
+/*************************************************************
+				Agenda
+***************************************************************/
+
+.box a.image{
+	text-decoration:none
+}
+.box .desc{
+	border:1px solid #E4E2E1;
+	border-bottom:0;
+	color:#666;font-size:75%;
+	padding:5px;
+	text-align:center
+}
+.box #schedule_list{
+	border:1px solid #E4E2E1;
+	color:#666;font-size:77%;
+	padding:5px
+}
+.box #schedule_list li a{
+	color:#666;
+	text-decoration:none
+}
+.box #schedule_list li a:hover{
+	text-decoration:underline
+}
+
+#menu-calendario li a {
+	border:1px solid #b4b4b4 !important;
+	display:inline-block;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:32%;
+	text-decoration:none;
+	text-align:center;
+
+}
+#menu-calendario li.current-menu-item a{
+	
+	
+	background-color:#dcdcdc;
+	
+}

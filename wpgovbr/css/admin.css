@@ -1,0 +1,43 @@
+.custom-message {background: #FFF9AF; border: 1px solid #F7D56F; font-size: 12px; padding: 1em; width: 60%; margin: 1em 0;}
+#custom-theme-option form#template table.form-table th {display: none;}
+div.testtextbox {margin: 0.7em 0 0; padding: 1em; background: #f7f7f7; border: 1px solid #ddd; width: 50%;}
+#custom-theme-option {background-color: white; padding: 1em 2em 4em 2em; border: 1px solid #ccc; margin: 0px 20px 0 2px;}
+h2.nav-tab-wrapper, h3.nav-tab-wrapper {border-bottom-color: transparent;}
+h2.nav-tab-wrapper, h3.nav-tab-wrapper {border-bottom-width: 1px; border-bottom-style: solid; padding-bottom: 0; padding-left: 1em;}
+h2.nav-tab-wrapper, h3.nav-tab-wrapper {font-size: 1.5em; margin: .83em 0 -3px 0; font-weight: 400;}
+.nav-tab-active, .nav-tab-active:hover {color: #000; background: #fff; border-color: #ccc; border-bottom-color: #fff !important;}
+#custom-theme-option option {padding: 3px 10px;}
+#custom-theme-option h1 {font-size: 20px; font-weight: 300;}
+#custom-theme-option p.notice {font-size: 1em; background: #FFFFD9; display: block; border: 1px solid #FC6; padding: 0.5em; clear: both; float: left;}
+#socialbox {width: 98%; padding: 0 5px; float: left;}
+#socialbox p {width: 100%; float: left; margin: 12px 0 0;}
+p.bigp {font-size: 13px;}
+#socialbox img {margin:12px 5px 0 0 !important; float: left; zoom: 1; filter: alpha(opacity=90); opacity: 0.9;}
+#socialbox img:hover {zoom: 1; filter: alpha(opacity=100); opacity: 1;}
+#wp-theme-options h3 {font-size: 1.25em; margin: 2em 0 10px; display: block; width: 100%; float: left;}
+#announce {display: block; margin: 0px; padding: 0px; clear: both; height: auto; float: left; width: 100%;}
+#announce h1 {font-size: 1.5em; font-weight: bold; color: #111; display: block;}
+#announce #rss {font-size: 1.2em;}
+#announce #rss a {text-decoration: none; font-weight: bold;}
+#announce #rss a:hover {text-decoration: none;}
+#announce #note {font-size: 1em; color: #333333;}
+#announce #note a {text-decoration: none; font-weight: bold; text-transform: uppercase;}
+#announce #note a:hover {text-decoration: none;}
+.premium-theme-list {width: 100%; float: left; padding: 0 0 8px 0; margin: 0 0 12px 0; position: relative; border-bottom: 1px solid #eee;}
+.premium-theme-list h2 {font-size: 16px; line-height: 24px; letter-spacing: normal; font-family: Arial, sans-serif; position: absolute; top: -5px; left: 74px;}
+.premium-theme-list.pt4 {border-bottom: 0 none; margin: 0 !important;}
+div#fbbox {width: 300px; padding: 0 20px 0 0; float: left;}
+div#sponsored {display: block; margin: 0px; padding: 0px; border: 1px solid #d8dfea; background: white; float: left; width: 500px; height: 368px;}
+div#sponsored a.more-themes {font-weight: bold; font-size: 12px; text-align: center; display: block; height: auto; width: auto; clear: both; margin: 0px; padding-top: 5px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; text-transform: uppercase;}
+div#sponsored h6 {font-size: 13px; font-weight: bold; color: #000000; text-align: left; display: block; padding: 8px; clear: both; height: auto; width: auto; background-color: #EDEFF4; margin: 0px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #d8dfea;}
+div#sponsored #content {width: auto; padding: 10px; margin: 0px; height: auto;}
+div#sponsored #content a {text-decoration: none;}
+div#sponsored #content a:hover {}
+div#sponsored #content img {height: auto; width: auto; margin: 0px 10px 0 0; width: 64px; float: left;}
+div#sponsored #content p {width: auto; text-align: left; display: block; margin: 0px; padding: 0px; clear: both; height: auto; font-size: 12px; color: #666666;}
+div#sponsored #content h2 {font-weight: bold; text-align: left; display: block; margin: 0px; padding: 0px; clear: both; height: auto; width: auto;}
+@media only screen and (max-width:1024px) {
+div#sponsored {width: 480px;}
+div#fbbox {padding: 0 10px 0 0;}
+}
+@media only screen and (min-width:1280px) and (max-width:1920px) {}

@@ -1,0 +1,47 @@
+
+/* - ++resource++collective.nitf/charcount.css - */
+@media screen {
+/* http://10.211.2.65:8050/sae/SAE/portal_css/++resource++collective.nitf/charcount.css?original=1 */
+form .counter {
+color: #CCCCCC;
+font-size: 18px;
+font-weight: bold;
+position: absolute;
+right: 0;
+top: 0;
+}
+form .warning {
+color: #660000;
+}
+form .exceeded {
+color: #EE0000;
+}
+.portaltype-collective-nitf-content .field {
+position: relative;
+}
+}
+
+
+/* - ++resource++collective.polls/css/collective.polls.css - */
+@media screen {
+/* http://10.211.2.65:8050/sae/SAE/portal_css/++resource++collective.polls/css/collective.polls.css?original=1 */
+#pollresultholder {
+margin-top: 25px;
+}
+#portletresultholder {
+margin-top: 25px;
+}
+.votePortlet {
+position:relative;
+}
+.poll-spinner {
+display:none;
+position:absolute;
+top:40%;
+text-align:center;
+left:50%;
+}
+.bar-row .bar span {
+display:none;
+}
+}

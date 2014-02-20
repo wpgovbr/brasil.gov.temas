@@ -1,0 +1,279 @@
+
+/* - ++resource++plone.app.jquerytools.dateinput.css - */
+@media screen {
+/* http://10.211.2.65:8050/sae/SAE/portal_css/++resource++plone.app.jquerytools.dateinput.css?original=1 */
+/* */
+/* */
+.date {
+border:1px solid #ccc;
+font-size:18px;
+padding:4px;
+text-align:center;
+width:194px;
+-moz-box-shadow:0 0 10px #eee inset;
+box-shadow:0 0 10px #eee inset;
+}
+/* */
+#calroot {
+margin-top:-1px;
+width:198px;
+padding:2px;
+background-color:#fff;
+font-size:11px;
+border:1px solid #ccc;
+z-index:1;
+-moz-border-radius:5px;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-box-shadow: 0 0 15px #666;
+-webkit-box-shadow: 0 0 15px #666;
+box-shadow: 0 0 15px #666;
+}
+/* */
+#calhead {
+padding:2px 0;
+height:22px;
+}
+#caltitle {
+font-size:14px;
+color:#0150D1;
+float:left;
+text-align:center;
+width:155px;
+line-height:20px;
+text-shadow:0 1px 0 #ddd;
+}
+#calnext, #calprev {
+display:block;
+width:20px;
+height:20px;
+background:transparent url(prev.gif) no-repeat scroll center center;
+float:left;
+cursor:pointer;
+}
+#calnext {
+background-image:url(next.gif);
+float:right;
+}
+#calprev.caldisabled, #calnext.caldisabled {
+visibility:hidden;
+}
+/* */
+#caltitle select {
+font-size:10px;
+}
+/* */
+#caldays {
+height:14px;
+border-bottom:1px solid #ddd;
+}
+#caldays span {
+display:block;
+float:left;
+width:28px;
+text-align:center;
+}
+/* */
+#calweeks {
+background-color:#fff;
+margin-top:4px;
+}
+/* */
+.calweek {
+clear:left;
+height:22px;
+}
+/* */
+.calweek a {
+display:block;
+float:left;
+width:27px;
+height:20px;
+text-decoration:none;
+font-size:11px;
+margin-left:1px;
+text-align:center;
+line-height:20px;
+color:#666;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+}
+/* */
+.calweek a:hover, .calfocus {
+background-color:#ddd;
+}
+/* */
+a.calsun {
+color:red;
+}
+/* */
+a.caloff {
+color:#ccc;
+}
+a.caloff:hover {
+background-color:rgb(245, 245, 250);
+}
+/* */
+a.caldisabled {
+background-color:#efefef !important;
+color:#ccc	!important;
+cursor:default;
+}
+/* */
+#calcurrent {
+background-color:#498CE2;
+color:#fff;
+}
+/* */
+#caltoday {
+background-color:#333;
+color:#fff;
+}
+/* */
+.caltrigger {
+background:url('popup_calendar.png') no-repeat 0 0;
+height: 16px;
+width: 16px;
+display: inline-block;
+border-bottom: none !important;
+vertical-align: middle;
+}
+#calprev {
+background-image:url(++resource++plone.app.jquerytools.prev.gif);
+}
+#calnext {
+background-image:url(++resource++plone.app.jquerytools.next.gif);
+}
+#calroot {
+z-index: 10000;
+}
+}
+
+
+/* - ++resource++plone.formwidget.querystring.querywidget.css - */
+@media screen {
+/* http://10.211.2.65:8050/sae/SAE/portal_css/++resource++plone.formwidget.querystring.querywidget.css?original=1 */
+.queryindex, .addIndex {
+display: block;
+width: 180px;
+float: left;
+margin-right: 0.5em;
+}
+.queryoperator, .addOperator {
+display: block;
+width: 100px;
+float: left;
+margin-right: 0.5em;
+}
+.queryresults {
+float: right;
+}
+.previewSearchResultsHeading {
+margin-top: 1em;
+}
+.QueryWidget .criteria {
+margin: 0 1em 0.5em 0;
+clear: both;
+}
+.removecriteria {
+border: 0;
+padding: 0;
+background: transparent;
+cursor: pointer;
+margin-left: 1em;
+}
+.error.QueryWidget {
+background-color:transparent;
+border:0;
+padding:0;
+}
+.sortingField {
+clear: both;
+padding-top: 1em;
+}
+.previewresultsLabel {
+padding-top: 1em;
+display: block;
+}
+.previewresults {
+border-width: 1px;
+border-style: solid;
+height: 16em;
+overflow: auto;
+}
+.querywidget dt {
+border-width: 1px;
+border-style: solid;
+cursor: pointer;
+}
+.querywidget .arrowDownAlternative {
+float: right;
+padding-right: 0.25em;
+}
+.widgetPulldownMenu {
+position: absolute;
+}
+dl.multipleSelectionWidget,
+#content dl.multipleSelectionWidget {
+margin: 0;
+}
+.multipleSelectionWidget dt {
+width: 198px;
+height: 1.5em;
+overflow: hidden;
+}
+.multipleSelectionWidget dd {
+width: 198px;
+background: white;
+overflow:auto;
+}
+.multipleSelectionWidget label {
+display: block;
+}
+.querywidget {
+float: left;
+width: 200px;
+}
+.referenceWidget input {
+width: 200px;
+}
+dl.querywidget {
+margin: 0;
+}
+#content dl.querywidget dd,
+dl.querywidget dd {
+margin: 0;
+}
+.dateRangeWidget input {
+width: 78px;
+}
+.criteria {
+clear: both;
+}
+.widgetPulldownMenu {
+border-width: 1px;
+border-style: solid;
+height:6.5em;
+}
+/* */
+.multipleSelectionWidget .hiddenStructure {
+display: none !important;
+}
+}
+
+
+/* - ++resource++plone.app.collection.css - */
+@media screen {
+/* http://10.211.2.65:8050/sae/SAE/portal_css/++resource++plone.app.collection.css?original=1 */
+/* */
+.icons-on .contenttype-collection {
+background: no-repeat transparent 0px -1724px url(contenttypes-sprite.png);
+}
+.icons-on .contenttype-collection {
+line-height: 2em;
+display: inline-block;
+*display: block;
+padding-left: 20px;
+}
+
+}
